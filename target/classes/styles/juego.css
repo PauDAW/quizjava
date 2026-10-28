@@ -1,0 +1,81 @@
+/* EL FONDO DE LA VENTANA DE JUEGO */
+.root {
+    -fx-background-color: #f4f7f6;
+}
+
+/* TÍTULOS SUPERIORES (PREGUNTA Y PUNTUACIÓN) */
+#lblPregunta, #lblPuntuacion {
+    -fx-font-family: "Segoe UI", sans-serif !important;
+    -fx-font-size: 15px !important;
+    -fx-font-weight: bold !important;
+    -fx-text-fill: #34495e !important;
+}
+
+/* EL ENUNCIADO CENTRAL (GRANDE Y ADAPTADO) */
+#lblEnunciado {
+    -fx-font-family: "Segoe UI", sans-serif !important;
+    -fx-font-size: 20px !important;
+    -fx-font-weight: bold !important;
+    -fx-text-fill: #2c3e50 !important;
+    -fx-wrap-text: true !important; 
+}
+
+/* LAS OPCIONES DE RESPUESTA (RADIO BUTTONS) */
+.radio-button {
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2c3e50;
+    -fx-padding: 4px;
+}
+.radio-button .radio {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 10px;
+}
+.radio-button:selected .radio .dot {
+    -fx-background-color: #16a085;
+}
+
+/* LA BARRA DE PROGRESO */
+.progress-bar {
+    -fx-pref-width: 200px !important; 
+}
+.progress-bar .track {
+    -fx-background-color: #dcdde1 !important;
+    -fx-background-radius: 10px !important;
+}
+.progress-bar .bar {
+    -fx-background-color: linear-gradient(to right, #1abc9c, #16a085) !important;
+    -fx-background-radius: 10px !important;
+}
+
+/* BOTONES DE ABAJO (COMPROBAR Y SIGUIENTE) */
+#btnComprobar, #btnSiguiente {
+    -fx-font-family: "Segoe UI", sans-serif !important;
+    -fx-font-size: 13px !important;
+    -fx-font-weight: bold !important;
+    -fx-background-color: #16a085 !important; 
+    -fx-text-fill: white !important;
+    -fx-background-radius: 12px !important;   
+    -fx-padding: 8px 18px !important;       
+    -fx-cursor: hand !important;
+}
+#btnComprobar:hover, #btnSiguiente:hover {
+    -fx-background-color: #1abc9c !important;
+}
+
+/* BOTÓN SALIR (ROJO) */
+#btnSalir {
+    -fx-font-family: "Segoe UI", sans-serif !important;
+    -fx-font-size: 13px !important;
+    -fx-font-weight: bold !important;
+    -fx-background-color: #e74c3c !important; /* Rojo suave */
+    -fx-text-fill: white !important;
+    -fx-background-radius: 12px !important;
+    -fx-padding: 8px 18px !important;
+    -fx-cursor: hand !important;
+}
+#btnSalir:hover {
+    -fx-background-color: #c0392b !important; /* Rojo oscuro */
+}
+

@@ -1,0 +1,2 @@
+JugadorPrueba,10,0,APTO
+Ejemplo,5,5,NO APTO

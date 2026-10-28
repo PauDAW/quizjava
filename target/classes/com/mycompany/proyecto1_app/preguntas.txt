@@ -1,0 +1,90 @@
+¿Cuál es la forma correcta de declarar e inicializar una variable de tipo entero con el valo 10 en Java?
+int numero = 10;
+integer numero = 10
+numero = 10;
+let numero = 10;
+int numero = 10;
+¿Qué instrucción se utiliza en Java para mostrar un mensaje básico en la consola del sistema?
+console.log("Mensaje");
+print("Mensaje");
+System.out.println("Mensaje");
+document.write("Mensaje");
+System.out.println("Mensaje");
+¿Qué estructura de control utilizas si quieres que tu programa tome una decisión y ejecute un código solo si una condición es verdadera?
+for
+if
+while
+switch
+if
+¿Qué operador se utiliza en Java para comparar si dos valores numéricos son exactamente iguales dentro de un if
+=
+equals
+==
+===
+==
+¿Cómo se llama el método principal y obligatorio que busca Java para poder iniciar la ejecución de cualquier aplicación de consola?
+start()
+init()
+run()
+main()
+main()
+¿Cuál es la función de la palabra clave 'new' en Java?
+Crear una nueva instancia u objeto a partir de una clase.
+Declarar una variable local dentro de un método.
+Heredar las propiedades de otra clase padre.
+Modificar el tipo de dato de una variable existente.
+Crear una nueva instancia u objeto a partir de una clase.
+En la Programación Orientada a Objetos, ¿qué palabra clave se utiliza para que una clase hija herede de una clase padre?
+implements
+extends
+super
+inherit
+extends
+Si estás dentro del constructor de una clase hija y quieres llamar al constructor de la clase padre, ¿qué instrucción usas?
+this()
+padre()
+super()
+class.super
+super()
+Si queremos aplicar el encapsulamiento para que un atributo solo sea accesible dentro de su propia clase, ¿qué modificador usamos?
+public
+protected
+private
+void
+private
+¿Qué tipo de valor devuelve un método cuya firma declara el tipo de retorno como 'void'?
+Devuelve un valor de tipo entero (0).
+No devuelve ningún valor.
+Devuelve un valor booleano falso por defecto.
+Devuelve una cadena de texto vacía ("").
+No devuelve ningún valor.
+¿Qué ocurre si intentamos ejecutar un método que tiene un tipo de retorno 'int' pero olvidamos poner la instrucción 'return'?
+El programa compila y devuelve un cero automáticamente.
+Se produce un error de compilación.
+El programa da un error en tiempo de ejecución solo si se llama al método.
+El método cambia su tipo automáticamente a void.
+Se produce un error de compilación.
+¿Cuál es la principal diferencia funcional entre un bucle 'while' y un bucle 'do-while'?
+El bucle 'while' evalúa la condición al final de la iteración.
+El bucle 'do-while' se ejecuta al menos una vez, sin importar si la condición es falsa desde el principio.
+El bucle 'while' solo funciona con variables numéricas enteras.
+El bucle 'do-while' es más rápido y gasta menos memoria.
+El bucle 'do-while' se ejecuta al menos una vez, sin importar si la condición es falsa desde el principio.
+Si declaras un array tradicional como 'int[] edades = new int[5];', ¿cuál es el índice de la última posición utilizable?
+5
+4
+6
+0
+4
+¿Cuál de los siguientes tipos de datos se utiliza para cadenas de texto en Java y es una clase (no un tipo primitivo)?
+char
+String
+ext
+boolean
+String
+¿Qué bloque de la estructura de control de excepciones se encarga de capturar y manejar el error para que el programa no se rompa?
+try
+catch
+finally
+throw
+catch
